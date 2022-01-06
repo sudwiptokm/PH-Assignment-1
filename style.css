@@ -55,7 +55,9 @@ h1 {
   margin-bottom: 35px;
 }
 .firstSec_button:hover {
-  background-color: #ea8a81;
+  background-color: #b6c48e;
+  box-shadow: 0px 10px 14px -7px #b6c48e;
+  border: 1px solid #b6c48e;
   transform: scale(1.1);
 }
 .scroll_text {
@@ -144,26 +146,6 @@ h1 {
 }
 .thirdSec_text {
   padding: 20px 0;
-}
-.thirdSec_button {
-  box-shadow: 0px 10px 14px -7px rgb(182, 196, 142);
-  background-color: #b6c48e;
-  border-radius: 4px;
-  border: 1px solid #b6c48e;
-  display: inline-block;
-  cursor: pointer;
-  color: #ffffff;
-  font-size: 13px;
-  font-weight: bold;
-  padding: 11px 40px;
-  text-decoration: none;
-  transition: 0.3s ease-in;
-  margin-bottom: 35px;
-}
-.thirdSec_button:hover {
-  background-color: #ea8a81;
-  box-shadow: 0px 10px 14px -7px #ea8a81;
-  border: 1px solid #ea8a81;
 }
 #fourthSec {
   padding-bottom: 40px;
