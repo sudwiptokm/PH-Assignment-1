@@ -147,7 +147,7 @@ h1 {
   padding: 20px 0;
 }
 .thirdSec_button {
-  box-shadow: 0px 10px 14px -7px #b6c48e;
+  box-shadow: 0px 10px 14px -7px rgb(182, 196, 142);
   background-color: #b6c48e;
   border-radius: 4px;
   border: 1px solid #b6c48e;
@@ -179,21 +179,27 @@ h1 {
   margin: 0 40px;
   margin-bottom: 100px;
 }
+.myOwn {
+  margin-bottom: 150px;
+}
 .myown_title {
   font-weight: bolder;
   text-align: center;
   font-size: x-large;
   margin-bottom: 40px;
 }
+
 .myOwn hr {
   width: 25%;
   margin: auto;
   border: 1px solid #b6c48e;
 }
 .myown_sec1 {
-  background-color: rgba(234, 138, 129, 0.2);
+  background-color: rgba(234, 138, 129, 0.1);
   border-radius: 10px;
-  padding: 0 20px;
+  padding: 0 40px;
+  width: 30%;
+  margin-right: 100px;
 }
 .underline {
   text-decoration: underline;
@@ -203,4 +209,38 @@ h1 {
 }
 .ypad20 {
   padding: 20px 0;
+}
+.myown_sec2 {
+  width: 70%;
+}
+.form {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+input[type="text"] {
+  background-color: rgba(182, 196, 142, 0.1);
+  color: #dc7027;
+  border: none;
+  border-radius: 10px;
+  height: 25px;
+  padding-left: 10px;
+}
+textarea[type="message"] {
+  background-color: rgba(182, 196, 142, 0.1);
+  color: #dc7027;
+  border: none;
+  border-radius: 10px;
+  width: 98%;
+  height: 250px;
+  padding-left: 10px;
+  margin-bottom: 40px;
+  text-align: top left;
+  font-family: "Poppins", sans-serif;
+}
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
 }
