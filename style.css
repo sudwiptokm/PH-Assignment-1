@@ -244,3 +244,14 @@ textarea[type="message"] {
   text-align: center;
   padding: 30px 0;
 }
+.footerTitle {
+  font-family: "Vujahday Script", cursive;
+  font-size: x-large;
+  padding-bottom: 10px;
+}
+.footerSpan {
+  color: #b6c48e;
+}
+.footer p {
+  font-size: x-small;
+}
